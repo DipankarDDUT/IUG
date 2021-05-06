@@ -87,7 +87,8 @@ var myHeaders = new Headers();
 myHeaders.append("Accept", "application/json");
 myHeaders.append("Content-Type", "application/json");
 myHeaders.append("Authorization", "Basic dmlrc2g6UGFzc3dvcmRAMTIzNA==");
-myHeaders.append("Cookie", "; route=f914add77c951bd40d60baf1d4bc6d25");
+// myHeaders.append("Cookie", "; route=f914add77c951bd40d60baf1d4bc6d25");
+  myHeaders.append("mode", "no-cors");
 
 var raw = JSON.stringify({
   "userID": "C-0014",
