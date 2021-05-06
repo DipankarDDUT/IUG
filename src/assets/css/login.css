@@ -1,0 +1,85 @@
+.main {
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+  .card{
+   
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+   
+      /* margin-bottom: 20px; */
+      max-width: 400px;
+        max-height: 500px;
+  }
+  .image{
+      height:30px;
+      margin-right: 5px;
+  }
+  .button-t:hover{
+    border: 2px solid rgb(4, 118, 184);
+    background-color: white;
+}
+.button-t{
+    /* margin-top: 50px; */
+    background-color: rgb(4, 118, 184);
+    color: white;
+} .card{
+  box-shadow: 0 4px 4px rgb(0 0 0 / 1%), 0 8px 8px rgb(0 0 0 / 1%), 
+  0 16px 16px rgb(0 0 0 / 3%),
+   0 32px 32px rgb(0 0 0 / 5%), 
+   0 32px 64px rgb(0 0 0 / 10%), 
+   0 -3px 32px rgb(0 0 0 / 10%);
+
+  
+}
+.c1{
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.c2{
+  padding: 7px 0;
+}
+.c2>a{
+  text-decoration: none;
+}
+.forgot{
+  text-decoration:none;
+  color:#212529;
+  font-size: small;
+  margin-bottom: 20px;
+  margin-top:10px ;
+}
+.register{
+  color:#212529;
+  font-size: medium;
+  margin-bottom: 20px;
+  margin-top:10px ;
+}
+.anchor_register{
+    text-decoration:none;
+    /* color:#212529; */
+}
+.img-header{
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+hr {
+  border: none;
+  /* border-top:  */
+  color: 1px solid rgba(var(--b38,219,219,219),1);
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  margin-bottom: 10px;
+  margin-top:10px;
+}
+
+hr:after {
+  background: #fff;
+  content: 'OR';
+  padding: 4px 4px;
+  position: relative;
+  top: -13px;
+}
