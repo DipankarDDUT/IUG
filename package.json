@@ -1,0 +1,19 @@
+{
+  "name": "iug",
+  "version": "1.0.0",
+  "description": "develper outreach",
+  "main": "login.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DipankarDDUT/IUG.git"
+  },
+  "author": "Dipankar Dutta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DipankarDDUT/IUG/issues"
+  },
+  "homepage": "https://github.com/DipankarDDUT/IUG#readme"
+}
